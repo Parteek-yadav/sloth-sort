@@ -42,7 +42,7 @@ SLOTH_RUNTIME must contain:
 
 | Local filename | Pinned source |
 | --- | --- |
-| transformers.mjs | Download https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.7.2/dist/transformers.web.js and save under this filename |
+| transformers.mjs | Download https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.7.2/dist/transformers.min.js and save under this filename |
 | ort-wasm-simd-threaded.jsep.mjs | https://cdn.jsdelivr.net/npm/onnxruntime-web@1.22.0-dev.20250409-89f8206ba4/dist/ort-wasm-simd-threaded.jsep.mjs |
 | ort-wasm-simd-threaded.jsep.wasm | https://cdn.jsdelivr.net/npm/onnxruntime-web@1.22.0-dev.20250409-89f8206ba4/dist/ort-wasm-simd-threaded.jsep.wasm |
 

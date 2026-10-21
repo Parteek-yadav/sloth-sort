@@ -7,7 +7,7 @@
   },
   {
     "file": "NOTICE-TRANSFORMERS-BUNDLE.txt",
-    "url": "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.7.2/dist/transformers.web.js.LICENSE.txt",
+    "url": "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.7.2/dist/transformers.min.js.LICENSE.txt",
     "status": 404
   },
   {
