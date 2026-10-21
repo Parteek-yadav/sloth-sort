@@ -1,0 +1,759 @@
+{
+  "assertions": "5 classes passed: item count, dimensions/finite, unit norms, full assignment, minimum cosine",
+  "kind": "REAL MODEL INFERENCE; SYNTHETIC SAMPLE; NOT ACCURACY VALIDATION",
+  "model": "Xenova/all-MiniLM-L6-v2",
+  "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+  "transformers": "3.7.2",
+  "device": "wasm",
+  "dtype": "q8",
+  "items": 15,
+  "tokenCounts": [
+    11,
+    11,
+    9,
+    13,
+    11,
+    12,
+    9,
+    9,
+    11,
+    10,
+    8,
+    8,
+    10,
+    9,
+    16
+  ],
+  "dimensions": 384,
+  "normRange": [
+    0.9999997655907444,
+    1.000000357158479
+  ],
+  "elapsedMs": 1674,
+  "assetLog": [
+    {
+      "file": "tokenizer.json",
+      "source": "existing local cache"
+    },
+    {
+      "file": "config.json",
+      "source": "small local metadata"
+    },
+    {
+      "file": "model_quantized.onnx",
+      "source": "existing local cache"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "source": "small local metadata"
+    }
+  ],
+  "evaluations": [
+    {
+      "threshold": 0.45,
+      "groups": [
+        {
+          "id": "g0",
+          "name": "Nest 1",
+          "indices": [
+            0,
+            2
+          ],
+          "minSimilarity": 0.6037705724732679,
+          "notes": [
+            "Grow basil and mint in pots on the balcony",
+            "Remember to water the balcony herb plants"
+          ]
+        },
+        {
+          "id": "g1",
+          "name": "Ungrouped",
+          "indices": [
+            1
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "A guide to growing culinary herbs in small containers"
+          ]
+        },
+        {
+          "id": "g2",
+          "name": "Nest 3",
+          "indices": [
+            3,
+            4
+          ],
+          "minSimilarity": 0.5161107816088646,
+          "notes": [
+            "Learn to bake a loaf of sourdough bread",
+            "Sourdough starter feeding schedule and baking notes"
+          ]
+        },
+        {
+          "id": "g3",
+          "name": "Ungrouped",
+          "indices": [
+            5
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Tips for a crisp crust on homemade sourdough"
+          ]
+        },
+        {
+          "id": "g4",
+          "name": "Nest 5",
+          "indices": [
+            6,
+            7,
+            8
+          ],
+          "minSimilarity": 0.4705627052605585,
+          "notes": [
+            "Plan a relaxed weekend trip by train",
+            "Ideas for a slow scenic rail journey",
+            "Find a quiet weekend destination reachable by train"
+          ]
+        },
+        {
+          "id": "g5",
+          "name": "Nest 6",
+          "indices": [
+            9,
+            10,
+            11
+          ],
+          "minSimilarity": 0.590701609169605,
+          "notes": [
+            "Set a monthly budget for groceries and bills",
+            "Review household expenses and monthly spending",
+            "Build a simple monthly personal budget"
+          ]
+        },
+        {
+          "id": "g6",
+          "name": "Ungrouped",
+          "indices": [
+            12
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Repair the loose handle on my blue suitcase"
+          ]
+        },
+        {
+          "id": "g7",
+          "name": "Ungrouped",
+          "indices": [
+            13
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "A strange dream about a floating library"
+          ]
+        },
+        {
+          "id": "g8",
+          "name": "Ungrouped",
+          "indices": [
+            14
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "https://example.com — a link without a useful description"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.55,
+      "groups": [
+        {
+          "id": "g0",
+          "name": "Nest 1",
+          "indices": [
+            0,
+            2
+          ],
+          "minSimilarity": 0.6037705724732679,
+          "notes": [
+            "Grow basil and mint in pots on the balcony",
+            "Remember to water the balcony herb plants"
+          ]
+        },
+        {
+          "id": "g1",
+          "name": "Ungrouped",
+          "indices": [
+            1
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "A guide to growing culinary herbs in small containers"
+          ]
+        },
+        {
+          "id": "g2",
+          "name": "Ungrouped",
+          "indices": [
+            3
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Learn to bake a loaf of sourdough bread"
+          ]
+        },
+        {
+          "id": "g3",
+          "name": "Ungrouped",
+          "indices": [
+            4
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Sourdough starter feeding schedule and baking notes"
+          ]
+        },
+        {
+          "id": "g4",
+          "name": "Ungrouped",
+          "indices": [
+            5
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Tips for a crisp crust on homemade sourdough"
+          ]
+        },
+        {
+          "id": "g5",
+          "name": "Nest 6",
+          "indices": [
+            6,
+            8
+          ],
+          "minSimilarity": 0.7426589875946152,
+          "notes": [
+            "Plan a relaxed weekend trip by train",
+            "Find a quiet weekend destination reachable by train"
+          ]
+        },
+        {
+          "id": "g6",
+          "name": "Ungrouped",
+          "indices": [
+            7
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Ideas for a slow scenic rail journey"
+          ]
+        },
+        {
+          "id": "g7",
+          "name": "Nest 8",
+          "indices": [
+            9,
+            10,
+            11
+          ],
+          "minSimilarity": 0.590701609169605,
+          "notes": [
+            "Set a monthly budget for groceries and bills",
+            "Review household expenses and monthly spending",
+            "Build a simple monthly personal budget"
+          ]
+        },
+        {
+          "id": "g8",
+          "name": "Ungrouped",
+          "indices": [
+            12
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Repair the loose handle on my blue suitcase"
+          ]
+        },
+        {
+          "id": "g9",
+          "name": "Ungrouped",
+          "indices": [
+            13
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "A strange dream about a floating library"
+          ]
+        },
+        {
+          "id": "g10",
+          "name": "Ungrouped",
+          "indices": [
+            14
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "https://example.com — a link without a useful description"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.6,
+      "groups": [
+        {
+          "id": "g0",
+          "name": "Nest 1",
+          "indices": [
+            0,
+            2
+          ],
+          "minSimilarity": 0.6037705724732679,
+          "notes": [
+            "Grow basil and mint in pots on the balcony",
+            "Remember to water the balcony herb plants"
+          ]
+        },
+        {
+          "id": "g1",
+          "name": "Ungrouped",
+          "indices": [
+            1
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "A guide to growing culinary herbs in small containers"
+          ]
+        },
+        {
+          "id": "g2",
+          "name": "Ungrouped",
+          "indices": [
+            3
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Learn to bake a loaf of sourdough bread"
+          ]
+        },
+        {
+          "id": "g3",
+          "name": "Ungrouped",
+          "indices": [
+            4
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Sourdough starter feeding schedule and baking notes"
+          ]
+        },
+        {
+          "id": "g4",
+          "name": "Ungrouped",
+          "indices": [
+            5
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Tips for a crisp crust on homemade sourdough"
+          ]
+        },
+        {
+          "id": "g5",
+          "name": "Nest 6",
+          "indices": [
+            6,
+            8
+          ],
+          "minSimilarity": 0.7426589875946152,
+          "notes": [
+            "Plan a relaxed weekend trip by train",
+            "Find a quiet weekend destination reachable by train"
+          ]
+        },
+        {
+          "id": "g6",
+          "name": "Ungrouped",
+          "indices": [
+            7
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Ideas for a slow scenic rail journey"
+          ]
+        },
+        {
+          "id": "g7",
+          "name": "Nest 8",
+          "indices": [
+            9,
+            11
+          ],
+          "minSimilarity": 0.7807731082653633,
+          "notes": [
+            "Set a monthly budget for groceries and bills",
+            "Build a simple monthly personal budget"
+          ]
+        },
+        {
+          "id": "g8",
+          "name": "Ungrouped",
+          "indices": [
+            10
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Review household expenses and monthly spending"
+          ]
+        },
+        {
+          "id": "g9",
+          "name": "Ungrouped",
+          "indices": [
+            12
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Repair the loose handle on my blue suitcase"
+          ]
+        },
+        {
+          "id": "g10",
+          "name": "Ungrouped",
+          "indices": [
+            13
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "A strange dream about a floating library"
+          ]
+        },
+        {
+          "id": "g11",
+          "name": "Ungrouped",
+          "indices": [
+            14
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "https://example.com — a link without a useful description"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.65,
+      "groups": [
+        {
+          "id": "g0",
+          "name": "Ungrouped",
+          "indices": [
+            0
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Grow basil and mint in pots on the balcony"
+          ]
+        },
+        {
+          "id": "g1",
+          "name": "Ungrouped",
+          "indices": [
+            1
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "A guide to growing culinary herbs in small containers"
+          ]
+        },
+        {
+          "id": "g2",
+          "name": "Ungrouped",
+          "indices": [
+            2
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Remember to water the balcony herb plants"
+          ]
+        },
+        {
+          "id": "g3",
+          "name": "Ungrouped",
+          "indices": [
+            3
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Learn to bake a loaf of sourdough bread"
+          ]
+        },
+        {
+          "id": "g4",
+          "name": "Ungrouped",
+          "indices": [
+            4
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Sourdough starter feeding schedule and baking notes"
+          ]
+        },
+        {
+          "id": "g5",
+          "name": "Ungrouped",
+          "indices": [
+            5
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Tips for a crisp crust on homemade sourdough"
+          ]
+        },
+        {
+          "id": "g6",
+          "name": "Nest 7",
+          "indices": [
+            6,
+            8
+          ],
+          "minSimilarity": 0.7426589875946152,
+          "notes": [
+            "Plan a relaxed weekend trip by train",
+            "Find a quiet weekend destination reachable by train"
+          ]
+        },
+        {
+          "id": "g7",
+          "name": "Ungrouped",
+          "indices": [
+            7
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Ideas for a slow scenic rail journey"
+          ]
+        },
+        {
+          "id": "g8",
+          "name": "Nest 9",
+          "indices": [
+            9,
+            11
+          ],
+          "minSimilarity": 0.7807731082653633,
+          "notes": [
+            "Set a monthly budget for groceries and bills",
+            "Build a simple monthly personal budget"
+          ]
+        },
+        {
+          "id": "g9",
+          "name": "Ungrouped",
+          "indices": [
+            10
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Review household expenses and monthly spending"
+          ]
+        },
+        {
+          "id": "g10",
+          "name": "Ungrouped",
+          "indices": [
+            12
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Repair the loose handle on my blue suitcase"
+          ]
+        },
+        {
+          "id": "g11",
+          "name": "Ungrouped",
+          "indices": [
+            13
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "A strange dream about a floating library"
+          ]
+        },
+        {
+          "id": "g12",
+          "name": "Ungrouped",
+          "indices": [
+            14
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "https://example.com — a link without a useful description"
+          ]
+        }
+      ]
+    },
+    {
+      "threshold": 0.75,
+      "groups": [
+        {
+          "id": "g0",
+          "name": "Ungrouped",
+          "indices": [
+            0
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Grow basil and mint in pots on the balcony"
+          ]
+        },
+        {
+          "id": "g1",
+          "name": "Ungrouped",
+          "indices": [
+            1
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "A guide to growing culinary herbs in small containers"
+          ]
+        },
+        {
+          "id": "g2",
+          "name": "Ungrouped",
+          "indices": [
+            2
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Remember to water the balcony herb plants"
+          ]
+        },
+        {
+          "id": "g3",
+          "name": "Ungrouped",
+          "indices": [
+            3
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Learn to bake a loaf of sourdough bread"
+          ]
+        },
+        {
+          "id": "g4",
+          "name": "Ungrouped",
+          "indices": [
+            4
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Sourdough starter feeding schedule and baking notes"
+          ]
+        },
+        {
+          "id": "g5",
+          "name": "Ungrouped",
+          "indices": [
+            5
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Tips for a crisp crust on homemade sourdough"
+          ]
+        },
+        {
+          "id": "g6",
+          "name": "Ungrouped",
+          "indices": [
+            6
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Plan a relaxed weekend trip by train"
+          ]
+        },
+        {
+          "id": "g7",
+          "name": "Ungrouped",
+          "indices": [
+            7
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Ideas for a slow scenic rail journey"
+          ]
+        },
+        {
+          "id": "g8",
+          "name": "Ungrouped",
+          "indices": [
+            8
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Find a quiet weekend destination reachable by train"
+          ]
+        },
+        {
+          "id": "g9",
+          "name": "Nest 10",
+          "indices": [
+            9,
+            11
+          ],
+          "minSimilarity": 0.7807731082653633,
+          "notes": [
+            "Set a monthly budget for groceries and bills",
+            "Build a simple monthly personal budget"
+          ]
+        },
+        {
+          "id": "g10",
+          "name": "Ungrouped",
+          "indices": [
+            10
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Review household expenses and monthly spending"
+          ]
+        },
+        {
+          "id": "g11",
+          "name": "Ungrouped",
+          "indices": [
+            12
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "Repair the loose handle on my blue suitcase"
+          ]
+        },
+        {
+          "id": "g12",
+          "name": "Ungrouped",
+          "indices": [
+            13
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "A strange dream about a floating library"
+          ]
+        },
+        {
+          "id": "g13",
+          "name": "Ungrouped",
+          "indices": [
+            14
+          ],
+          "minSimilarity": null,
+          "notes": [
+            "https://example.com — a link without a useful description"
+          ]
+        }
+      ]
+    }
+  ]
+}

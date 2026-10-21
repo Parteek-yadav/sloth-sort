@@ -1,0 +1,6 @@
+# Generated development assets (never commit runtime or model downloads)
+test-assets/
+node_modules/
+*.wasm
+*.onnx
+*.log

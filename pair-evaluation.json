@@ -1,0 +1,492 @@
+{
+  "disclosure": "Manually specified synthetic topic categories, AI-assisted. Labels formalized after initial inference was inspected; not blind or held out. Illustrative only, not accuracy validation. Default threshold remains 0.60; no threshold tuning from these labels.",
+  "method": "Compare all 105 unordered note pairs against manually specified categories. Same-category pairs are expected to group; three unique labels are expected singletons. Multi-threshold outputs describe sensitivity only; they are not a threshold-selection or validation exercise.",
+  "defaultThreshold": 0.6,
+  "rows": [
+    {
+      "threshold": 0.45,
+      "items": 15,
+      "totalGroups": 9,
+      "multiNoteNests": 4,
+      "singletons": 5,
+      "tp": 8,
+      "fp": 0,
+      "fn": 4,
+      "tn": 93,
+      "pairs": [
+        {
+          "a": 0,
+          "b": 1,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 0,
+          "b": 2,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 6,
+          "b": 8,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 9,
+          "b": 11,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        }
+      ]
+    },
+    {
+      "threshold": 0.55,
+      "items": 15,
+      "totalGroups": 11,
+      "multiNoteNests": 3,
+      "singletons": 8,
+      "tp": 5,
+      "fp": 0,
+      "fn": 7,
+      "tn": 93,
+      "pairs": [
+        {
+          "a": 0,
+          "b": 1,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 0,
+          "b": 2,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 6,
+          "b": 8,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 9,
+          "b": 11,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        }
+      ]
+    },
+    {
+      "threshold": 0.6,
+      "items": 15,
+      "totalGroups": 12,
+      "multiNoteNests": 3,
+      "singletons": 9,
+      "tp": 3,
+      "fp": 0,
+      "fn": 9,
+      "tn": 93,
+      "pairs": [
+        {
+          "a": 0,
+          "b": 1,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 0,
+          "b": 2,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 6,
+          "b": 8,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 9,
+          "b": 11,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        }
+      ]
+    },
+    {
+      "threshold": 0.65,
+      "items": 15,
+      "totalGroups": 13,
+      "multiNoteNests": 2,
+      "singletons": 11,
+      "tp": 2,
+      "fp": 0,
+      "fn": 10,
+      "tn": 93,
+      "pairs": [
+        {
+          "a": 0,
+          "b": 1,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 0,
+          "b": 2,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 6,
+          "b": 8,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 9,
+          "b": 11,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        }
+      ]
+    },
+    {
+      "threshold": 0.75,
+      "items": 15,
+      "totalGroups": 14,
+      "multiNoteNests": 1,
+      "singletons": 13,
+      "tp": 1,
+      "fp": 0,
+      "fn": 11,
+      "tn": 93,
+      "pairs": [
+        {
+          "a": 0,
+          "b": 1,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 0,
+          "b": 2,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 6,
+          "b": 7,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 6,
+          "b": 8,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 7,
+          "b": 8,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 9,
+          "b": 10,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        },
+        {
+          "a": 9,
+          "b": 11,
+          "expected": true,
+          "grouped": true,
+          "outcome": "tp"
+        },
+        {
+          "a": 10,
+          "b": 11,
+          "expected": true,
+          "grouped": false,
+          "outcome": "fn"
+        }
+      ]
+    }
+  ]
+}

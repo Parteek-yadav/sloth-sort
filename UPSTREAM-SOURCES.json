@@ -1,0 +1,37 @@
+[
+  {
+    "file": "LICENSE-TRANSFORMERS-APACHE-2.0.txt",
+    "url": "https://raw.githubusercontent.com/huggingface/transformers.js/3.7.2/LICENSE",
+    "status": 200,
+    "bytes": 11358
+  },
+  {
+    "file": "NOTICE-TRANSFORMERS-BUNDLE.txt",
+    "url": "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.7.2/dist/transformers.web.js.LICENSE.txt",
+    "status": 404
+  },
+  {
+    "file": "LICENSE-ONNXRUNTIME-MIT.txt",
+    "url": "https://raw.githubusercontent.com/microsoft/onnxruntime/89f8206ba4/LICENSE",
+    "status": 200,
+    "bytes": 1073
+  },
+  {
+    "file": "NOTICE-ONNXRUNTIME-THIRD-PARTY.txt",
+    "url": "https://raw.githubusercontent.com/microsoft/onnxruntime/89f8206ba4/ThirdPartyNotices.txt",
+    "status": 200,
+    "bytes": 326866
+  },
+  {
+    "file": "MODEL-CARD-XENOVA.md",
+    "url": "https://huggingface.co/Xenova/all-MiniLM-L6-v2/raw/751bff37182d3f1213fa05d7196b954e230abad9/README.md",
+    "status": 200,
+    "bytes": 1767
+  },
+  {
+    "file": "LICENSE-JINJA.txt",
+    "url": "https://cdn.jsdelivr.net/npm/@huggingface/jinja@0.5.1/LICENSE",
+    "status": 200,
+    "bytes": 1069
+  }
+]

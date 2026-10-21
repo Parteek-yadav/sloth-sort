@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "route": "/",
+      "status": 200,
+      "mime": "text/html"
+    },
+    {
+      "route": "/app.mjs",
+      "status": 200,
+      "mime": "text/javascript"
+    },
+    {
+      "route": "/style.css",
+      "status": 200,
+      "mime": "text/css"
+    },
+    {
+      "route": "/missing",
+      "status": 404,
+      "mime": null
+    }
+  ],
+  "passed": 4
+}

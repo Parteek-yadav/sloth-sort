@@ -1,0 +1,20 @@
+{
+  "disclosure": "Manually specified synthetic topic categories, AI-assisted. Labels formalized after initial inference was inspected; not blind or held out. Illustrative only, not accuracy validation. Default threshold remains 0.60; no threshold tuning from these labels.",
+  "categories": [
+    "balcony-herbs",
+    "balcony-herbs",
+    "balcony-herbs",
+    "sourdough",
+    "sourdough",
+    "sourdough",
+    "train-weekend",
+    "train-weekend",
+    "train-weekend",
+    "household-budget",
+    "household-budget",
+    "household-budget",
+    "unique-suitcase",
+    "unique-dream",
+    "unique-bare-link"
+  ]
+}

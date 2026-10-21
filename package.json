@@ -1,0 +1,11 @@
+{
+  "name": "sloth-sort",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test engine.test.mjs",
+    "start": "node server.mjs",
+    "test:model": "node real-model-smoke.mjs"
+  }
+}
